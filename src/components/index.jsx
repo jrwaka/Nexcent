@@ -6,7 +6,7 @@ export default function Index (){
                 <div className="flex flex-col gap-8 items-center lg:items-start">
                     <h1 className="font-bold lg:text-5xl md:text-3xl text-[16px] justify-center text-black flex lg:flex-col lg:gap-5 flex-row gap-1 lg:px-0 px-3 w-[100%]"><span className="whitespace-nowrap">Lessons and insights</span><span className="text-green-600 whitespace-nowrap">from 8 years</span></h1>
                     <h1 className="text-sm lg:text-start lg:px-0 text-center px-1">Where to grow your business as a photographer: site or social media?</h1>
-                    <button className='flex flex-row bg-green-600 w-32 lg:h-12 h-8 text-white text-sm font-semibold rounded-md gap-2 items-center justify-center'>Register </button>
+                    <button className='flex flex-row bg-green-600 lg:w-32 w-24 lg:h-12 h-10 text-white text-sm font-semibold rounded-md gap-2 items-center justify-center'>Register </button>
                 </div>
 
                 <div className="shrink-0 lg:w-[350px] w-full">
