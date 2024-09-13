@@ -59,11 +59,95 @@ export default function Clients(){
                 </div>
             </div>
 
-            <div className="w-full flex lg:flex-row flex-col h-[20rem] bg-slate-100 justify-between">
-                <div className="font-bold lg:text-4xl text-xl lg:m-24 m-5">
+            <div className="w-full flex lg:flex-row flex-col h-[20rem] bg-slate-100 items-center lg:justify-around justify-center">
+                <div className="font-bold lg:text-4xl text-xl">
                 <h1>Helping a local</h1>
                 <h1 className="text-green-500">business reinvent itself</h1>
                 <h1 className="flex lg:flex-col flex-row font-normal lg:text-[16px] text-[12px]">We reached here with our hard work and dedication</h1>
+                </div>
+
+                <div className="flex w-[20%] gap-2">
+                    <div className="w-full">
+                        {/* Div 1 */}
+                        <div className="flex lg:flex-row flex-col gap-2">
+                            <div className="mt-1">
+                                <img src="Members.svg" alt="" />
+                            </div>
+
+                            <div className=" w-full font-semibold">
+                                <div className="lg:text-[22px]">
+                                    <h1>2,245,341</h1>
+                                </div>
+
+                                <div className="lg:text-[16px] text-[12px] text-slate-500 font-medium">
+                                    Members
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex lg:flex-row flex-col gap-2 ">
+                            <div className="mt-1">
+                                <img src="Events.svg" alt="" />
+                            </div>
+
+                            <div className=" w-full font-semibold">
+                                <div className="lg:text-[22px]">
+                                    <h1>8,282,967</h1>
+                                </div>
+
+                                <div className="lg:text-[16px] text-[12px] text-slate-500 font-medium">
+                                    Event Bookings
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="w-full">
+                        {/* Div 2 */}
+
+                        <div className="flex lg:flex-row flex-col gap-2">
+                            <div className="mt-1">
+                                <img src="Clubs1.svg" alt="" />
+                            </div>
+
+                            <div className=" w-full font-semibold">
+                                <div className="lg:text-[22px]">
+                                    <h1>46,328</h1>
+                                </div>
+
+                                <div className="lg:text-[16px] text-[12px] text-slate-500 font-medium">
+                                    Clubs
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex lg:flex-row flex-col gap-2">
+                            <div className="mt-1">
+                                <img src="Payments.svg" alt="" />
+                            </div>
+
+                            <div className=" w-full font-semibold">
+                                <div className="lg:text-[22px]">
+                                    <h1>1,926,236</h1>
+                                </div>
+
+                                <div className="lg:text-[16px] text-[12px] text-slate-500 font-medium">
+                                    Payments
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex lg:flex-row flex-col justify-center items-center py-5 gap-14 ml-[5%]">
+                <img src="Design.svg" alt="" />
+
+                <div className="flex flex-col gap-5">
+                    <h1 className="font-bold lg:text-4xl text-lg lg:w-[70%] m-4">How to design your site footer like we did</h1>
+                    <p className="lg:text-md text-sm w-[70%] m-4">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+
+                    <button className='flex flex-row bg-green-600 m-4 lg:w-32 w-24 lg:h-12 h-10 text-white text-sm font-semibold rounded-md gap-2 items-center justify-center'>Learn More</button>
                 </div>
             </div>
         </div>
